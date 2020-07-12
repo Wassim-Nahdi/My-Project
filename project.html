@@ -2,15 +2,24 @@
 <html>
 <head>
   <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <styles src="css.css">
-   <div class="header" id="heading">
- <nav>
+  <script type="text/javascript"></script>
+  <script>
+    $(document).onClick(function() {
+      $('.hiding').toggle(3000)
+    })
+  </script>
+  <link rel="stylesheet" href="css.css">
+  <meta charset="utf-8">
+</head>
+<body>
+  <header class="header">
+ <div class="header" id="heading">
     <ul class="dropBar">
-    <li><a href="home"> Home </a></li>
-    <li><a href="login"> Log In </a></li>
+    <li><a href="project.html"> Home </a></li>
+    <li><a href="project.html"> Log In </a></li>
     <ul>
-      <li><input type="text" name="Email" placeholder="E-mail"> Email : </li>
-      <li><input type="password" name="Password" placeholder="Password"> Password </li>
+      <li class="hiding"><input type="text" name="Email" placeholder="E-mail"> Email : </li>
+      <li class="hiding"><input type="password" name="Password" placeholder="Password"> Password </li>
     </ul>
     <li><a href="ref"> Refrences </a></li>
     <ul>
@@ -24,12 +33,10 @@
     </ul>
     <li> Credits </li>
    </ul>
- </nav>
-  <link rel="stylesheet" href="css.css">
-  <meta charset="utf-8">
   <title> Wassim's First Project</title>
-</head>
-<body>
+</header>
+<p class ="opening"> These languages are among the most usable and wide spread programming languages in the world! </p>
+<main class="general">
   <div class="main">
   <div class="images">
     <a>
@@ -39,12 +46,15 @@
     <p><a href="https://fr.wikipedia.org/wiki/JavaScript"> Read more </a></p>
   </div>
 </div>
+<div class="main">
+  <div class="images">
     <a>
       <img src="html.jpg" alt="html" width="600" height="400">
     </a>
     <div class="description"> Hypertext Markup Language ( HTML ) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by ... </div>
     <p><a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language"> Read more </a></p>
   </div>
+</div>
 <div class="main">
   <div class="images">
     <a>
@@ -90,5 +100,10 @@
     <p><a href="https://fr.wikipedia.org/wiki/PHP"> Read more </a></p>
   </div>
 </div>
+</main>
+<footer class="bottom">
+<div>
+  <p> This is the first project ever for an amateur developper, please inform me of feedback and ways to upgrade this work to the user's comfty and usage &#169;</p></div>
+</footer>
 </body>
 </html>

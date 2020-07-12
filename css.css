@@ -1,3 +1,12 @@
+html {
+  background: url(BG.jpg) no-repeat center fixed;
+}
+p.opening {
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 30px;
+  color: red;
+}
 div.header {
   border: 3px solid gray;
   text-align: center;
@@ -5,6 +14,7 @@ div.header {
   font-weight: bold;
   border-radius: 10px 20px 20px 10px;
   background: #9999ff;
+  opacity: 0.9;
 }
 
 div.images {
@@ -14,6 +24,8 @@ div.images {
   border-radius: 0px 0px 40px 40px;
   background: #9494b8;
   box-shadow: 0px 0px 10px 2px gray;
+  margin-bottom: 10px;
+  background: lightblue;
 }
 div.images:hover {
   border: 1px solid orange;
@@ -21,14 +33,23 @@ div.images:hover {
 }
 div.images img {
   width: 100%;
-  height: 100px;
+  height: 200px;
 }
 div.description {
-  padding: 8px;
+  padding: 1px;
   text-align: center;
 }
 .main {
-  padding: 0 6px;
+  padding: 0px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  margin-left: 90px;
   float: left;
   width: 20%;
+}
+footer.bottom {
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 30px;
+  color: red;
 }
