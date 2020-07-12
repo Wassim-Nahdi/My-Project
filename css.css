@@ -1,0 +1,15 @@
+.program {
+      width: 15%;
+      margin: 5em auto 0;
+      padding: 2em;
+      background: yellow;
+      border: 1px solid black;
+      text-align: center;
+      font: bold 1em/1.5 sans-serif;
+    }
+    .el.alt {
+      background: green;
+    }
+    .el.alt2 {
+      background: purple;
+    }
