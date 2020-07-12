@@ -3,83 +3,58 @@
 <head>
   <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript"></script>
-  <script>
-    $(document).onClick(function() {
-      $('.hiding').toggle(3000)
-    })
-  </script>
   <link rel="stylesheet" href="css.css">
   <meta charset="utf-8">
 </head>
 <body>
-  <header class="header">
- <div class="header" id="heading">
-    <ul class="dropBar">
-    <li><a href="project.html"> Home </a></li>
-    <li><a href="project.html"> Log In </a></li>
-    <ul>
-      <li class="hiding"><input type="text" name="Email" placeholder="E-mail"> Email : </li>
-      <li class="hiding"><input type="password" name="Password" placeholder="Password"> Password </li>
-    </ul>
-    <li><a href="ref"> Refrences </a></li>
-    <ul>
-      <li><a href="https://www.google.com/"> Google </a></li>
-      <li><a href="https://www.wikipedia.org/"> Wikipedia </a></li>
-    </ul>
-    <li><a href="dev"> Become a Developer ? </a></li>
-    <ul>
-      <li><a href="https://www.freecodecamp.org/"> Online Course </a></li>
-      <li><a href="https://www.rebootkamp.net/"> ReBootKamp </a></li>
-    </ul>
-    <li> Credits </li>
-   </ul>
-  <title> Wassim's First Project</title>
-</header>
-<p class ="opening"> These languages are among the most usable and wide spread programming languages in the world! </p>
+  <div id="menuOptions">
+  <a href="#" class="menuOpt"> Home </a>
+  <a href="#" class="menuOpt"> About </a>
+  <a href="#" class="menuOpt"> Join Us </a>
+  <a href="#" class="menuOpt"> Credits </a>
+  <a href="#" class="menuOpt"> Become a developer </a>
+</div>
+<div class="introduction">
+<p class ="opening"> These languages are among the most usable and wide spread programming languages in the world! Below there is their "logo" as well as small definition about them, but of course a link is provided if you wish to read more on the certified sources </p>
+</div>
 <main class="general">
   <div class="main">
   <div class="images">
-    <a>
       <img src="javascript.jpg" alt="Js" width="600" height="400">
-    </a>
-    <div class="description"> JavaScript is a scripting programming language mainly used in interactive web pages but also for servers with the use ...</div>
+    <div class="description"><p id="paragraph">JavaScript is a scripting programming language mainly used in interactive web pages but also for servers with the use ... </p><br>
     <p><a href="https://fr.wikipedia.org/wiki/JavaScript"> Read more </a></p>
   </div>
+  </div>
 </div>
 <div class="main">
   <div class="images">
-    <a>
       <img src="html.jpg" alt="html" width="600" height="400">
-    </a>
-    <div class="description"> Hypertext Markup Language ( HTML ) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by ... </div>
-    <p><a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language"> Read more </a></p>
+    <div class="description"><p id="paragraph"> Hypertext Markup Language ( HTML ) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by ...<br><br>
+    <a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language"> Read more </a></p></div>
   </div>
 </div>
 <div class="main">
   <div class="images">
-    <a>
       <img src="java.jpg" alt="Java" width="600" height="400">
-    </a>
-    <div class="description"> Java is an object-oriented programming language created by James Gosling and Patrick Naughton, employees of Sun Microsystems, with the support of Bill Joy ...</div>
-    <p><a href="https://fr.wikipedia.org/wiki/Java_(langage)"> Read more </a></p>
+    <div class="description"><p id="paragraph"> Java is an object-oriented programming language created by James Gosling and Patrick Naughton, employees of Sun Microsystems, with the support of Bill Joy ... <br><br>
+    <a href="https://fr.wikipedia.org/wiki/Java_(langage)"> Read more </a></p>
+  </div>
   </div>
 </div>
 <div class="main">
   <div class="images">
-    <a>
       <img src="C.jpg" alt="C" width="600" height="400">
-    </a>
-    <div class="description"> C is a general-purpose, procedural computer programming language supporting structured programming , lexical variable scope, and recursion, with a static ... </div>
-    <p><a href="https://en.wikipedia.org/wiki/C_(programming_language)"> Read more </a></p>
+    <div class="description"><p id="paragraph"> C is a general-purpose, procedural computer programming language supporting structured programming , lexical variable scope, and recursion, with a static ... <br><br>
+    <a href="https://en.wikipedia.org/wiki/C_(programming_language)"> Read more </a></p>
+  </div>
   </div>
 </div>
 <div class="main">
   <div class="images">
-    <a>
       <img src="C++.jpg" alt="C++" width="600" height="400">
-    </a>
-    <div class="description"> C ++ is a compiled programming language allowing programming under multiple paradigms (like procedural, oriented programming ...</div>
-    <p><a href="https://en.wikipedia.org/wiki/C%2B%2B"> Read more </a></p>
+    <div class="description"><p id="paragraph"> C ++ is a compiled programming language allowing programming under multiple paradigms (like procedural, oriented programming ... <br><br>
+    <a href="https://en.wikipedia.org/wiki/C%2B%2B"> Read more </a></p>
+  </div>
   </div>
 </div>
 <div class="main">
@@ -87,8 +62,9 @@
     <a>
       <img src="python.jpg" alt="python" width="600" height="400">
     </a>
-    <div class="description"> Python (/ˈpaɪ.θɑn/) is an interpreted, multi- paradigm and multi-platform programming language . It promotes structured imperative programming , ...</div>
-    <p><a href="https://en.wikipedia.org/wiki/Python_(programming_language)"> Read more </a></p>
+    <div class="description"><p id="paragraph"> Python (/ˈpaɪ.θɑn/) is an interpreted, multi- paradigm and multi-platform programming language . It promotes structured imperative programming , ... <br><br>
+    <a href="https://en.wikipedia.org/wiki/Python_(programming_language)"> Read more </a></p>
+  </div>
   </div>
 </div>
 <div class="main">
@@ -96,14 +72,11 @@
     <a>
       <img src="php.jpg" alt="php" width="600" height="400">
     </a>
-    <div class="description"> PHP is a popular general-purpose scripting language that is especially suited to web development. It was originally created by Danish-Canadian programmer ... </div>
+    <div class="description"><p id="paragraph"> PHP is a popular general-purpose scripting language that is especially suited to web development. It was originally created by Danish-Canadian programmer ... </p><br>
     <p><a href="https://fr.wikipedia.org/wiki/PHP"> Read more </a></p>
+  </div>
   </div>
 </div>
 </main>
-<footer class="bottom">
-<div>
-  <p> This is the first project ever for an amateur developper, please inform me of feedback and ways to upgrade this work to the user's comfty and usage &#169;</p></div>
-</footer>
 </body>
 </html>
