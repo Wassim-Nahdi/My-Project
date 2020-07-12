@@ -1,3 +1,12 @@
+div.header {
+  border: 3px solid gray;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+  border-radius: 10px 20px 20px 10px;
+  background: #9999ff;
+}
+
 div.images {
   border: 1px solid white;
   text-align: center;
@@ -15,7 +24,7 @@ div.images img {
   height: 100px;
 }
 div.description {
-  padding: 15px;
+  padding: 8px;
   text-align: center;
 }
 .main {
