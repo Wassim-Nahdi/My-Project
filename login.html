@@ -10,9 +10,9 @@
  <body>
   <p class="opening"> Welcome! We kindly invite you to fill the data below to complete your registration </p>
   <div class="loginDiv">
-    <p class="inputDesc"> Name : <input type="text" placeholder="name" id="myText" value="saber"><input type="submit" id="checkName" value="check" onclick="checkName()"></p></div>
+    <p class="inputDesc"> Name : <input type="text" placeholder="Name" id="firstN"><input type="submit" id="checkName" value="check availability" onclick="checkName()"></p></div>
     <div class="loginDiv">
-    <p class="inputDesc"> Lastname : <input type="text" placeholder="lastname"><input type="submit" id="checkLast" value="check"></p></div>
+    <p class="inputDesc"> Lastname : <input type="text" placeholder="Lastname" id="lastN"><input type="submit" id="checkLast" value="check availability" onclick="checkLastName()"></p></div>
     <div class="loginDiv">
    <p class="inputDesc"> Gender : <select id="sex" name="sex">
   <option value="Male">Male</option>
@@ -20,11 +20,11 @@
   <option value="Unspecified">Unspecified</option>
 </select></p></div>
 <div class="loginDiv">
-<p class="inputDesc"> Date of Birth : <input type="date" id="myDate"><input type="submit" id="checkDate" value="check"></p></div>
+<p class="inputDesc"> Date of Birth : <input type="date" id="myDate"></p></div>
 <div class="loginDiv">
-<p class="inputDesc"> Create Pseudo : <input type="text" placeholder="Pseudo"><input type="submit" id="checkPs" value="check"></p></div>
+<p class="inputDesc"> Create Pseudo : <input type="text" placeholder="Pseudo" id="myPs"><input type="submit" id="checkPs" value="check availability" onclick="checkPseudo()"></p></div>
 <div class="loginDiv">
-<p class="inputDesc"> Create Password : <input type="password" placeholder="Password"><input type="submit" id="checkPw" value="check"></p>
+<p class="inputDesc"> Create Password : <input type="password" placeholder="Password"><input type="submit" id="checkPw" value="check availability"></p>
 </div>
 <div class="loginDiv">
  <input id="finish" type="submit" value="Finish your sign up">
