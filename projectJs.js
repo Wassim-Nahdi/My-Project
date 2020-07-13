@@ -66,3 +66,11 @@ function checkPseudo() {
 	alert('invalid Pseudo, please try larger Pseudo!')
 }
 }
+function checkPassword() {
+	var myPassword = $('#myPw').val();
+	if(myPassword.length >= 8) {
+		alert('Pseudo valid, one more step')
+	} else {
+	alert('invalid Password, please try stronger password!')
+}
+}

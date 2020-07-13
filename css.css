@@ -54,8 +54,9 @@ div.description {
   text-align: center;
   background: #c2d6d6;
   border-radius: 30px 30px 30px 30px;
-  height: 180px;
+  height: 220px;
   weight: 50px;
+  font-family: Tahoma;
 }
 p.paragraph{
   margin top: 20px;
@@ -64,7 +65,7 @@ p.paragraph{
   padding: 0px;
   margin-top: 200px;
   margin-bottom: 200px;
-  margin-left: 90px;
+  margin-left: 200px;
   float: left;
   width: 20%;
 }
@@ -95,7 +96,7 @@ width: 1500px;
 }
 #finish:hover {
 background-color: #b3e6cc;
-transform: scale(1.05);
+transform: scale(1.5);
 }
 .loginDiv {
   padding:10px 10px;
