@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="projectJs.js"></script>
+  <link rel="stylesheet" href="css.css">
+  <meta charset="utf-8">
+   <title> Sign Up </title>
+ </head>
+ <body>
+  <p class="opening"> Welcome! We kindly invite you to fill the data below to complete your registration </p>
+  <div class="loginDiv">
+    <p class="inputDesc"> Name : <input type="text" placeholder="name" id="myText" value="saber"><input type="submit" id="checkName" value="check" onclick="checkName()"></p></div>
+    <div class="loginDiv">
+    <p class="inputDesc"> Lastname : <input type="text" placeholder="lastname"><input type="submit" id="checkLast" value="check"></p></div>
+    <div class="loginDiv">
+   <p class="inputDesc"> Gender : <select id="sex" name="sex">
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  <option value="Unspecified">Unspecified</option>
+</select></p></div>
+<div class="loginDiv">
+<p class="inputDesc"> Date of Birth : <input type="date" id="myDate"><input type="submit" id="checkDate" value="check"></p></div>
+<div class="loginDiv">
+<p class="inputDesc"> Create Pseudo : <input type="text" placeholder="Pseudo"><input type="submit" id="checkPs" value="check"></p></div>
+<div class="loginDiv">
+<p class="inputDesc"> Create Password : <input type="password" placeholder="Password"><input type="submit" id="checkPw" value="check"></p>
+</div>
+<div class="loginDiv">
+ <input id="finish" type="submit" value="Finish your sign up">
+</div>
+ </body>
+ </html>

@@ -12,8 +12,8 @@ html {
   color: #d98cd9;
   text-align: left;
   font-weight: bold;
-  font-size: 30px;
-  padding:20px 16px;
+  font-size: 20px;
+  padding:10px 10px;
   margin-right: 50px;
   margin-left: 50px;
 }
@@ -31,16 +31,6 @@ p.opening {
   font-size: 30px;
   color: black;
 }
-div.header {
-  border: 3px solid gray;
-  text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-weight: bold;
-  border-radius: 10px 20px 20px 10px;
-  background: #9999ff;
-  opacity: 0.9;
-  height: 50px;
-}
 
 div.images:hover {
   transform: scale(1.1);
@@ -55,8 +45,9 @@ div.description {
   text-align: center;
   background: #c2c2d6;
   border-radius: 30px 30px 30px 30px;
-  height: 150px;
+  height: 180px;
   weight: 50px;
+  display: visible;
 }
 p.paragraph{
   margin top: 20px;
@@ -69,14 +60,32 @@ p.paragraph{
   float: left;
   width: 20%;
 }
-footer.bottom {
-  text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 30px;
-  color: red;
-}
 div.images img {
     width: 100%;
     height: 200px;
     border-radius: 100%;
+}
+p.inputDesc {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  font-family: Tahoma;
+}
+.loginDiv {
+position: relative;
+margin-left: 50px;
+margin-bottom: 50px;
+
+display: inline-block;
+padding:10px 10px;
+float: left;
+width: 1500px;
+}
+#finish {
+  float: center;
+  margin-left: 500px;
+}
+#finish:hover {
+background-color: #b3e6cc;
+transform: scale(1.05);
 }
