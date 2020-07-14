@@ -1,4 +1,5 @@
-var array = [{link:"https://fr.wikipedia.org/wiki/JavaScript"},
+var array = 
+[{link:"https://fr.wikipedia.org/wiki/JavaScript"},
 {link1: "https://fr.wikipedia.org/wiki/Hypertext_Markup_Language"},
 {link2: "https://fr.wikipedia.org/wiki/Java_(langage)"},
 {link3: "https://en.wikipedia.org/wiki/C_(programming_language)"},
